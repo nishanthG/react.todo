@@ -1,0 +1,92 @@
+html {
+  min-height: 100%;
+}
+
+.welcome-page {
+  padding: 1rem;
+}
+
+.login-page {
+  margin-top: 10%;
+  background-color: white;
+  box-shadow: 5px 10px 18px #d1cfcf;
+}
+
+.login-page input {
+  width: 40%;
+  margin: 10px 0;  
+  padding: 12px 20px;   
+  display: inline-block;   
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .login-page input {
+    width: 70%; 
+  }
+}
+
+.login-button {
+  width: 30%;
+  margin: 8px 0;
+}
+
+.heading h3 {
+  border-top: paleturquoise solid 5px;
+  border-bottom: paleturquoise solid 12px;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+.error-message {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(172, 14, 80);
+}
+
+.todo a {
+    text-decoration: none;
+}
+
+.navbar-toggler:focus{
+  border-color: white;
+}
+
+.update-submitbtn {
+  margin-left: 2em;
+}
+
+header {
+  width: 100%;
+  top: 0;
+}
+
+@media (max-width: 787px){
+  .navbar li {
+    border-bottom: white 1px solid;
+  }
+}
+
+.todo-container{
+  margin: 1em;
+}
+
+.todo-button{
+  margin-bottom: 3em;
+}
+
+.todo-button-xtra{
+  margin-bottom: 4em;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+footer p{
+  padding-top: 15px;
+  font-size: 12px;
+}

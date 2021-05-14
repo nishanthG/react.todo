@@ -1,0 +1,23 @@
+body {
+    margin: 100px 0px 100px 0px;
+    background-color: rgba(240, 255, 254, 0.658);
+}
+
+button {
+    background-color: #ffe600;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.count {
+    font-size: 90px;
+    position: relative;
+}
+
+.reset {
+    background-color: rgb(255, 0, 98);
+    width: 200px;
+}
